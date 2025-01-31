@@ -4,20 +4,22 @@ import java.util.ArrayList;
 
 public class NegToPos {
 
-    private String sentence;
-    private ArrayList<String> sentenceSplitted;
+    private ArrayList<String> sentence;
 
 
-    public NegToPos(String s){
+    public NegToPos(ArrayList<String> s){
         sentence = s;
-        sentenceSplitted = new ArrayList<String>();
-
-        // sentence to sentenceSplitted
-
     }
 
-    public void sentenceSplitter(){
+    public void setSentence(ArrayList<String> newSentence){
+        sentence = newSentence;
+    }
 
+    public ArrayList<Integer> findNegWords(){
+        for(int i = 0; i < sentence.size(); i++){
+            if(sentence.get(i).equals("die"));
+            
+        }
     }
 
 

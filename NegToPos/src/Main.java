@@ -30,15 +30,11 @@ public class Main {
 
                 String currentText = textArea.getText();
 
-                ArrayList<String> splitText = StringParse.sentanceToArrayList(currentText);
+                ArrayList<String> splitText = StringParse.sentenceToArrayList(currentText);
 
-//                int bCount = 0;
-//                for(int i = 0; i < currentText.length(); i++) {
-//                    if(currentText.substring(i,i+1).equals("b")) {
-//                        bCount++;
-//                    }
-//                }
-//                counterLabel.setText("Number of 'b's: " + bCount);
+                System.out.println(splitText);
+
+                //counterLabel.setText("Number of 'b's: " + bCount);
 
             }
         });
